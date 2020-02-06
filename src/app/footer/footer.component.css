@@ -1,0 +1,9 @@
+.footer_copy{ font-size: 14px; background-color: #d9d9d9; padding: 10px; color: #404040; width: 460px;}
+address{padding: 15px 30px; font-style: normal;}
+.normal-weight{font-weight: 400;}
+.color-gray{ color:#404040;}
+.boldfnt{ font-weight: 700;}
+.full-height {height: 100vh;}
+@media screen and (max-width:767px){
+    .footer_copy{width: 100%;}
+}

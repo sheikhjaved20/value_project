@@ -1,0 +1,16 @@
+header{padding:30px 0px 20px; background-color:rgba(254, 254, 254, 1); background: url(/assets/images/header-bg.png) center center no-repeat; background-size: cover;}
+.logo{ float: left;}
+.report-title{float: right; text-align: right;}
+.companay_name{text-align: center; font-size: 30px; font-weight: 700;}
+.top-title{ color: #000; font-size: 25px; font-weight: 600;}
+
+@media screen and (max-width:980px){
+    header .clearfix{padding:0 15px;}
+}
+@media screen and (max-width:767px){
+    header{padding: 15px 0px; text-align: center;}
+    .logo, .report-title{float: none;}
+    .report-title{width: 100%; text-align: center;}
+    .top-title{font-size: 20px;}
+    .companay_name{font-size: 25px;}
+}
